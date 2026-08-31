@@ -1,0 +1,71 @@
+[
+  {
+    "id": "bm-basic",
+    "slug": "basic",
+    "name": "Basic Model",
+    "investmentAmount": 25000,
+    "tagline": "Entry-level business opportunity for beginners.",
+    "description": "The Basic Model is designed for first-time entrepreneurs who want a straightforward way to start, with access to Smile Mart's product categories and foundational business guidance.",
+    "features": [
+      "Access to core product categories",
+      "Guidance to help you get started",
+      "Support for offline selling"
+    ],
+    "benefits": [
+      "Low entry investment suited to first-time entrepreneurs",
+      "A structured starting point for your own business"
+    ],
+    "image": "",
+    "ctaLabel": "Apply Now",
+    "published": true,
+    "displayOrder": 1,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "bm-standard",
+    "slug": "standard",
+    "name": "Standard Model",
+    "investmentAmount": 50000,
+    "tagline": "Balanced model for entrepreneurs looking for greater product potential.",
+    "description": "The Standard Model suits entrepreneurs ready to expand their range, with broader product access and additional guidance on digital selling channels.",
+    "features": [
+      "Wider access across product categories",
+      "Guidance on offline and digital selling",
+      "Priority business support"
+    ],
+    "benefits": [
+      "Balanced investment with greater product potential",
+      "Support to grow across multiple selling channels"
+    ],
+    "image": "",
+    "ctaLabel": "Apply Now",
+    "published": true,
+    "displayOrder": 2,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "bm-premium",
+    "slug": "premium",
+    "name": "Premium Model",
+    "investmentAmount": 100000,
+    "tagline": "Larger-scale business opportunity for entrepreneurs.",
+    "description": "The Premium Model is built for entrepreneurs aiming for a larger-scale business, with full category access and dedicated business guidance.",
+    "features": [
+      "Full access across all product categories",
+      "Dedicated business guidance",
+      "Priority support for offline and digital selling"
+    ],
+    "benefits": [
+      "Positioned for larger-scale business ambitions",
+      "The most complete level of category access and support"
+    ],
+    "image": "",
+    "ctaLabel": "Apply Now",
+    "published": true,
+    "displayOrder": 3,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  }
+]

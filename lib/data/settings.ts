@@ -1,0 +1,40 @@
+import { readSingleton, mutateSingleton } from "./store";
+import type { SiteSettings } from "@/lib/types";
+
+const FILE = "settings.json";
+
+// Fallback only fires if settings.json is ever deleted — the seeded file
+// under /data is the real source of truth.
+const DEFAULT_SETTINGS: SiteSettings = {
+  contact: {
+    address: "[Add official business address in Admin → Settings]",
+    phone: "[Add official phone number]",
+    whatsappNumber: "910000000000",
+    email: "info@smilemartindia.example",
+  },
+  whatsappMessage:
+    "Hello Smile Mart, I am interested in your business opportunity. Please share the details.",
+  social: { instagram: "", facebook: "", youtube: "" },
+  legalDisclaimer:
+    "Business opportunities, product availability, pricing, benefits and other information displayed on this website are subject to applicable terms and conditions and may change from time to time. Results may vary based on individual effort, market conditions and other factors. No income or return should be represented as guaranteed unless officially supported and legally approved by Smile Mart.",
+  businessNetworkPublished: false,
+  seo: {
+    defaultTitle: "Smile Mart India — Build Your Business",
+    defaultDescription:
+      "Explore a smarter business opportunity with Smile Mart India — multiple product categories, flexible business models and modern selling channels.",
+  },
+};
+
+export function getSettings(): Promise<SiteSettings> {
+  return readSingleton<SiteSettings>(FILE, DEFAULT_SETTINGS);
+}
+
+export function updateSettings(patch: Partial<SiteSettings>): Promise<SiteSettings> {
+  return mutateSingleton<SiteSettings>(FILE, DEFAULT_SETTINGS, (current) => ({
+    ...current,
+    ...patch,
+    contact: { ...current.contact, ...patch.contact },
+    social: { ...current.social, ...patch.social },
+    seo: { ...current.seo, ...patch.seo },
+  }));
+}

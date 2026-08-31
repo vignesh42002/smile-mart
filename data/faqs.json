@@ -1,0 +1,101 @@
+[
+  {
+    "id": "faq-1",
+    "question": "What is Smile Mart?",
+    "answer": "Smile Mart India is a multi-category product and business-opportunity platform. Rather than a single retail store, we help entrepreneurs start and grow a business across multiple product categories with structured guidance.",
+    "displayOrder": 1,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-2",
+    "question": "What business models are available?",
+    "answer": "Three models are available: Basic, Standard and Premium, each offering a different level of product access and business support. See the Business Opportunity page for details on each.",
+    "displayOrder": 2,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-3",
+    "question": "What is the minimum investment?",
+    "answer": "The Basic Model starts at ₹25,000. Standard and Premium models are available at higher investment levels for entrepreneurs seeking greater product access.",
+    "displayOrder": 3,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-4",
+    "question": "Who can join?",
+    "answer": "Aspiring entrepreneurs, first-time business owners, existing retail business owners, homemakers and anyone interested in an additional business opportunity are welcome to apply.",
+    "displayOrder": 4,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-5",
+    "question": "What products are available?",
+    "answer": "Smile Mart covers multiple categories including gift items, toys & sports items, garments, home appliances, fancy items, cosmetics & beauty, imitation jewellery, bags & accessories, flowers & decoration, and stationery items. See the Products page for the full list.",
+    "displayOrder": 5,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-6",
+    "question": "Can I sell through WhatsApp?",
+    "answer": "Yes. WhatsApp is one of the selling channels we guide partners on, alongside offline selling.",
+    "displayOrder": 6,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-7",
+    "question": "Can I use Instagram and Facebook for selling?",
+    "answer": "Yes. Smile Mart provides guidance on promoting and selling products through Instagram and Facebook as part of our digital-selling support.",
+    "displayOrder": 7,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-8",
+    "question": "Can I sell through online marketplaces?",
+    "answer": "Yes, selling through online marketplaces is one of the digital-selling avenues we can guide you on as part of your business setup.",
+    "displayOrder": 8,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-9",
+    "question": "Is business guidance provided?",
+    "answer": "Yes. Every business model includes guidance to help you get started and grow, covering product selection and selling across offline and digital channels.",
+    "displayOrder": 9,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-10",
+    "question": "How can I apply?",
+    "answer": "Submit an enquiry through the lead form on this website, choosing your preferred business model, or reach out to us directly on WhatsApp. Our team will follow up with the next steps.",
+    "displayOrder": 10,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "faq-11",
+    "question": "Where is Smile Mart located?",
+    "answer": "Our official address and location details are available on the Contact page. [Full address to be confirmed by Smile Mart and updated in Admin → Settings.]",
+    "displayOrder": 11,
+    "published": true,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "updatedAt": "2026-08-29T00:00:00.000Z"
+  }
+]

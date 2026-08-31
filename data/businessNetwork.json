@@ -1,0 +1,11 @@
+[
+  { "id": "bn-1", "name": "ARASAN GIFT WORLD", "description": "", "logo": "", "displayOrder": 1, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" },
+  { "id": "bn-2", "name": "AR GIFT", "description": "", "logo": "", "displayOrder": 2, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" },
+  { "id": "bn-3", "name": "A.R.R. IMPEX", "description": "", "logo": "", "displayOrder": 3, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" },
+  { "id": "bn-4", "name": "Manav Fancy Store", "description": "", "logo": "", "displayOrder": 4, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" },
+  { "id": "bn-5", "name": "Mamtha Bag Belt House", "description": "", "logo": "", "displayOrder": 5, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" },
+  { "id": "bn-6", "name": "Mansi Fancy Store", "description": "", "logo": "", "displayOrder": 6, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" },
+  { "id": "bn-7", "name": "VHS Garments", "description": "", "logo": "", "displayOrder": 7, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" },
+  { "id": "bn-8", "name": "Redrose Garments", "description": "", "logo": "", "displayOrder": 8, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" },
+  { "id": "bn-9", "name": "Kovai Covering Jewells", "description": "", "logo": "", "displayOrder": 9, "createdAt": "2026-08-29T00:00:00.000Z", "updatedAt": "2026-08-29T00:00:00.000Z" }
+]
