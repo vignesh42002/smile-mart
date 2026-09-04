@@ -12,7 +12,7 @@ export function HeroIllustration() {
       <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] flex items-center justify-center p-2">
         <Image
           src="/hero-illustration.png"
-          alt="Communicate, Collaborate, Create Illustration"
+          alt="Smile Mart Marketplace Illustration"
           width={800}
           height={600}
           priority
