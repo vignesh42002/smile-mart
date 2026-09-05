@@ -4,6 +4,9 @@ import { FaqAccordion } from "@/components/site/FaqAccordion";
 import { LeadCTASection } from "@/components/site/LeadCTASection";
 import { getPublishedFaqs } from "@/lib/data/faqs";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: "FAQ",
   description: "Answers to common questions about Smile Mart India's business models, products and how to apply.",

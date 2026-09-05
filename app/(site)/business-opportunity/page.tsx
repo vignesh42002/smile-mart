@@ -7,6 +7,9 @@ import { DisclaimerBanner } from "@/components/site/DisclaimerBanner";
 import { getPublishedBusinessModels } from "@/lib/data/businessModels";
 import { getSettings } from "@/lib/data/settings";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: "Business Opportunity",
   description: "Compare the Basic, Standard and Premium business models and find the right fit to start your business with Smile Mart India.",

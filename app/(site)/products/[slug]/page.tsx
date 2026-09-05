@@ -3,12 +3,16 @@ import { notFound } from "next/navigation";
 import { PackageSearch } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { IconTile } from "@/components/ui/IconTile";
-import { Card } from "@/components/ui/Card";
+import { ProductCard } from "@/components/site/ProductCard";
 import { ViewTracker } from "@/components/site/ViewTracker";
 import { LeadCTASection } from "@/components/site/LeadCTASection";
 import { getCategoryBySlug } from "@/lib/data/categories";
 import { getPublishedProductsByCategory } from "@/lib/data/products";
+import { getSettings } from "@/lib/data/settings";
 import { getCategoryIcon } from "@/lib/categoryIcons";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -30,7 +34,11 @@ export default async function CategoryDetailPage({ params }: PageProps) {
   const category = await getCategoryBySlug(slug);
   if (!category || !category.published) notFound();
 
-  const products = await getPublishedProductsByCategory(category.id);
+  const [products, settings] = await Promise.all([
+    getPublishedProductsByCategory(category.id),
+    getSettings(),
+  ]);
+
   const Icon = getCategoryIcon(category.slug);
 
   return (
@@ -51,10 +59,12 @@ export default async function CategoryDetailPage({ params }: PageProps) {
           {products.length > 0 ? (
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {products.map((product) => (
-                <Card key={product.id} className="p-6">
-                  <h3 className="text-base font-semibold text-brand-950">{product.name}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-slate-600">{product.description}</p>
-                </Card>
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  category={category}
+                  whatsappNumber={settings.contact.whatsappNumber}
+                />
               ))}
             </div>
           ) : (

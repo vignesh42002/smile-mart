@@ -4,6 +4,10 @@ import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { StickyCTA } from "@/components/site/StickyCTA";
 import { getSettings } from "@/lib/data/settings";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+
 export default async function SiteLayout({ children }: { children: React.ReactNode }) {
   const settings = await getSettings();
 
